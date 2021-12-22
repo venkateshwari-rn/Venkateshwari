@@ -1,1 +1,23 @@
-hi
+title: ADEX Docs
+tagline: Your sidekick in using GitHub Pages and blogs
+description: >-
+  Learn how to create a site or blog from your GitHub repositories with GitHub
+  Pages.
+tags:
+  - GitHub
+  - GitHub Pages
+template:
+  name: adex-docs-with-jekyll
+  repo: adex-docs-with-jekyll-template
+preferences:
+  - type: dropdown
+    name: language
+    label: Language
+    description: Choose your preferred language.
+    options:
+      - label: English
+        value: en
+      - label: Español
+        value: es
+        
+        
