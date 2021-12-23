@@ -20,11 +20,22 @@ styling_options:
   feedback_url: https://form.gov.sg/5e4e552386290e0013ae5685
   logo_url: https://sdx.sensors.gov.sg/sdx/home
 
-hide_toolbar:
-  sidebar: false
-  pdf: false
-  github: true
-
+# hide_toolbar:
+#   sidebar: false
+#   pdf: false
+#   github: true
+  
+preferences:
+  - type: dropdown
+    name: language
+    label: Language
+    description: Choose your preferred language.
+    options:
+      - label: English
+        value: en
+      - label: Español
+        value: es
+        
 folders:
   - name: 'User Guide'
     title: 'User Guide'
